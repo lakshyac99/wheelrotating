@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #8AF3F9;
+    background-size: cover;
+}
+
+.rotate_01{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -50px 0 0 -100px;
+    -webkit-transition: -webkit-transform 1s;
+}
+.rotate_01:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
